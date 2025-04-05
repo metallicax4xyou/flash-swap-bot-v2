@@ -5,7 +5,7 @@ require("dotenv").config({ silent: true });
 
 // Define constants for readability (optional)
 const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY || "YOUR_DEFAULT_ALCHEMY_KEY_HERE"; // Replace with a placeholder or ensure .env exists
-const MAINNET_FORK_URL = `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`;
+const MAINNET_FORK_URL = `https://eth-mainnet.g.alchemy.com/v2/DL2Hs7iCi5K22CtMp9lrL3OTNyvyTnHv`;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
